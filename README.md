@@ -47,135 +47,101 @@ Deploy the Portfolio.
 ### STEP 14
 Upload to GitHub Pages for free hosting.
 
-## PROGRAM
+## HOME PAGE
 ```
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(120deg, #f6f9ff, #e9f0ff);
-        }
-
-        /* Header */
-        .header {
-            text-align: center;
-            padding: 30px;
-            background-color: #2b3cff;
-            color: white;
-        }
-
-        /* Tabs */
-        .tabs {
-            display: flex;
-            justify-content: center;
-            background-color: white;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .tabs button {
-            background: none;
-            border: none;
-            padding: 15px 30px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: 0.3s;
-        }
-
-        .tabs button:hover {
-            color: #2b3cff;
-        }
-
-        .tabs button.active {
-            border-bottom: 3px solid #2b3cff;
-            color: #2b3cff;
-            font-weight: bold;
-        }
-
-        /* Content cards */
-        .content {
-            display: none;
-            max-width: 800px;
-            margin: 40px auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-        }
-
-        .content h2 {
-            color: #2b3cff;
-        }
-
-        .content.active {
-            display: block;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            color: #555;
-        }
-    </style>
+    <title>Home | Harish</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="header">
-        <h1>Abisheik Raj</h1>
-        <p>Student | AI & Data Science</p>
-    </div>
+<div class="nav">
+    <a href="port.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
 
-    <div class="tabs">
-        <button class="tab-btn active" onclick="openTab('home', this)">Home</button>
-        <button class="tab-btn" onclick="openTab('about', this)">About</button>
-        <button class="tab-btn" onclick="openTab('contact', this)">Contact</button>
-    </div>
+<div class="home">
+    <h1>Hello, I'm Varadaram 👋</h1>
+    <p>Frontend and Backend developer</p>
+    <p>I build simple, clean and user-friendly websites.</p>
+</div>
 
-    <div id="home" class="content active">
-        <h2>Welcome</h2>
-        <p>
-            Hi! 👋  
-            This is my personal portfolio website where I showcase my skills and interests.
-        </p>
-    </div>
+</body>
+</html>
 
-    <div id="about" class="content">
-        <h2>About Me</h2>
-        <p>
-            I am a B.Tech AI & Data Science student.  
-            Currently learning programming, data science, and web development.
-        </p>
-    </div>
 
-    <div id="contact" class="content">
-        <h2>Contact</h2>
-        <p>Email: abisheikjar@email.com</p>
-        <p>LinkedIn: linkedin.com/in/AbisheikRaj</p>
-    </div>
+```
+## ABOUT PAGE
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <footer>
-        © 2026 My Portfolio
-    </footer>
+<body>
 
-    <script>
-        function openTab(tabName, element) {
-            let contents = document.getElementsByClassName("content");
-            let buttons = document.getElementsByClassName("tab-btn");
+<div class="nav">
+    <a href="port.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
 
-            for (let i = 0; i < contents.length; i++) {
-                contents[i].classList.remove("active");
-                buttons[i].classList.remove("active");
-            }
+<div class="page">
+    <h1>About Me</h1>
 
-            document.getElementById(tabName).classList.add("active");
-            element.classList.add("active");
-        }
-    </script>
+    <p>
+        I'm a passionate developer who enjoys creating websites that are clean,
+        responsive and easy to use.
+    </p>
+
+    <p>
+        I love learning new technologies and solving real-world problems
+        through design and code.I enjoy working on DSA and leetcode problems
+    </p>
+</div>
+
+</body>
+</html>
+
+```
+## SKILL PAGE
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+    <a href="port.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<div class="page">
+    <h1>My Skills</h1>
+
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">Java</div>
+    <div class="skill">C</div>
+    <div class="skill">Python</div>
+</div>
 
 </body>
 </html>
