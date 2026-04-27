@@ -373,9 +373,13 @@ body {
 ```
 ## OUTPUT
 <img width="1908" height="905" alt="about page" src="https://github.com/user-attachments/assets/e061598b-d985-4528-bed0-fcb7cb366f4c" />
+
 <img width="1918" height="870" alt="contact me page" src="https://github.com/user-attachments/assets/d1d57130-029a-4223-ace4-9411162d8e37" />
+
 <img width="1918" height="892" alt="home page" src="https://github.com/user-attachments/assets/6db2c629-46d0-4c54-81bf-1a4d77d25984" />
+
 <img width="1907" height="917" alt="project page" src="https://github.com/user-attachments/assets/1784d3dc-2656-4487-9ce9-b948d9eb4fbf" />
+
 <img width="1907" height="945" alt="skills page" src="https://github.com/user-attachments/assets/66b863fd-2b7a-4030-8309-eaf5db59ad7a" />
 
 
