@@ -52,7 +52,7 @@ Upload to GitHub Pages for free hosting.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home | Harish</title>
+    <title>Home | Varadaram SK</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
